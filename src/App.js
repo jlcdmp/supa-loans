@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './CSS/App.css';
 import Navigation from './Components/navigation';
 
 
@@ -8,7 +8,6 @@ function App() {
   return (
     <div className='App' >
 
-      <h1> supa-loans</h1>
       <div className='navigation'>
 
         <Navigation />
@@ -18,6 +17,10 @@ function App() {
       <div className='content'>
         <p>content</p>
       </div>
+
+
+
+
 
 
     </div>
