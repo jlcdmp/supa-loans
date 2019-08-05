@@ -1,30 +1,27 @@
 import React from 'react';
 import './CSS/App.css';
-import Navigation from './Components/navigation';
+import Home from './Components/Home';
+import How from './Components/How'
+import Faq from './Components/Faq'
+import Fees from './Components/Fees'
+import Apply from './Components/Apply'
+import Navigation from './Components/Navigation'
+import { Router } from '@reach/router'
 
 
 
 function App() {
   return (
-    <div className='App' >
-
-      <div className='navigation'>
-
-        <Navigation />
-
-      </div>
-
-      <div className='content'>
-        <p>content</p>
-      </div>
-
-
-
-
-
-
-    </div>
-
+    <>
+      <Navigation />
+      <Router>
+        <Home path='/home' />
+        <How path='/how' />
+        <Faq path='/faq' />
+        <Fees path='/fees' />
+        <Apply path='apply' />
+      </Router>
+    </>
   );
 }
 

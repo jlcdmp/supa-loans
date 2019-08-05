@@ -1,17 +1,19 @@
 import React from 'react';
-import { Navbar, Nav, Button, Form, FormControl } from 'react-bootstrap'
 import '../CSS/Nav.css'
+import { Navbar, Nav } from 'react-bootstrap'
+import { Link } from '@reach/router'
 
 
 
 const Navigation = () => {
   return (
 
-
-
     <Navbar collapseOnSelect expand="md" >
 
-      <Navbar.Brand href="#home">Supa Loans</Navbar.Brand>
+
+      <a class="navbar-brand" href="#">
+        <img src={require('/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/logo6.png')} alt="" />
+      </a>
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -19,10 +21,11 @@ const Navigation = () => {
 
         <Nav className="navigation">
 
-          <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="#pricing">How It Works</Nav.Link>
-          <Nav.Link href="#pricing">Questions</Nav.Link>
-          <Nav.Link href="#pricing">Fee's</Nav.Link>
+          <Link className='nav-link' to='/home'>Home</Link>
+          <Link className='nav-link' to='/how'>How It Works</Link>
+          <Link className='nav-link' to='/Faq'>Questions</Link>
+          <Link className='nav-link' to='/Fees'>Fees</Link>
+
 
 
 
@@ -30,9 +33,6 @@ const Navigation = () => {
 
       </Navbar.Collapse>
     </Navbar>
-
-
-
 
 
 

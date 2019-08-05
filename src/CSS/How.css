@@ -1,0 +1,31 @@
+.how-store{
+  display:flex;
+  flex-direction: row;
+  margin:5px;
+}
+
+.how-terms{
+  margin:auto;
+}
+
+.how-content{
+  margin:15px;
+  padding:15px;
+}
+
+
+
+.table.table-borderless{
+    display: inline-block;
+    width:50%;
+    padding:5px;
+}
+
+@media (max-width: 805px){
+.table.table-borderless{
+    font-size: 16px;
+    width: 100%;
+}
+}
+
+

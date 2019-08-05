@@ -1,0 +1,16 @@
+.navbar{
+  background-color:#222222
+}
+
+
+
+#responsive-navbar-nav{
+justify-content: flex-end;
+}
+
+
+.nav-link{
+  color:#d3d3f2;
+  font-weight: 600
+}
+
