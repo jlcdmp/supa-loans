@@ -11,21 +11,34 @@ class How extends Component {
 
         <div className='how-content'>
 
+
+          <h2>How It Works</h2>
+          <h3>Supa Easy 4 Step Process</h3>
           <div class='how-store'>
-            <Card >
-              <Card.Img variant="top" src={require('/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/clipboard2.png')} />
-              <Card.Body>
-                <Card.Title>1</Card.Title>
-                <Card.Text>Select Credit Score, Reason for Loan and Monthly Income.</Card.Text>
-              </Card.Body>
-            </Card>
 
+            <div className='steps-card'>
+              <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/cursor.png")} />
+              <p className='card-body'  > <strong>1. </strong>Select Your Credit Score, Reason for Loan and Monthly Income.</p>
+            </div>
 
+            <div className='steps-card'>
+              <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/clipboard-fill.png")} />
+              <p className='card-body'> <strong>2. </strong>Complete a short form, All information is encrypted once submitted.</p>
+            </div>
 
+            <div className='steps-card'>
+              <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/clipboard.png")} />
+              <p className='card-body' > <strong>3. </strong>Once your information is processed  we search the internet for a succsesfull loan.</p>
+            </div>
 
-
+            <div className='steps-card'>
+              <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/handshake.png")} />
+              <p className='card-body' > <strong>4. </strong> If  accepted by a lender  we will redirect you to their website to complete the process.</p>
+            </div>
 
           </div>
+
+          <p>Please review all the loan documents carefully and make sure you understand the terms of the loan being offered. If you do not agree with those terms, simply decline the loan without any penalty. If you agree to the terms, simply follow the instructions provided by the lender. It's that easy!</p>
 
           <h3>Representative Examples of Costs & APR</h3>
 

@@ -13,11 +13,11 @@ const Jumbo = () => {
 
       <div className="title-body">
         <h4>Supa Easy</h4>
-        <p>Our 4 step process is deisgn to take the hassle out of securing a loan</p>
+        <p>4 step process</p>
         <h4>Supa Quick</h4>
         <p>Same day decisions*</p>
         <h4>Supa Simple</h4>
-        <p>With flexible re payements and all credit types accepted</p>
+        <p>flexible re-payements</p>
       </div>
 
     </div>

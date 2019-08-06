@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Jumbo from './Jumbo';
 import How from './How';
 import '../CSS/Home.css'
+import Faq from './Faq';
+import Disc from './Disc';
 
 
 class Home extends Component {
@@ -15,6 +17,10 @@ class Home extends Component {
           <Jumbo></Jumbo>
 
           <How />
+
+          <Faq />
+
+          <Disc />
         </div>
 
       </>

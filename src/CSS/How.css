@@ -1,17 +1,58 @@
 .how-store{
-  display:flex;
-  flex-direction: row;
-  margin:5px;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+padding:5px;
 }
+
+
+@media (max-width: 805px){
+.how-store{
+  display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+padding:5px;
+}
+  
+}
+
+
+.steps-card{
+display: flex;
+flex-direction:column;
+margin:auto;
+}
+
+p.card-body{
+  font-size: 1.1em;
+  color: white;
+  font-weight: 600;
+  padding:5px;
+  text-align: center
+}
+
+
+.step-img{
+  width:50%;
+  align-self: center;
+  padding:0;
+  margin:auto;
+}
+
+.card-number{
+  font-size: 2em;
+  padding:5px;
+  margin:0;
+  color: aliceblue;
+  font-weight: 600
+}
+
 
 .how-terms{
   margin:auto;
 }
 
-.how-content{
-  margin:15px;
-  padding:15px;
-}
+
 
 
 
