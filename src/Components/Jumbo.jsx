@@ -9,7 +9,7 @@ const Jumbo = () => {
 
 
 
-      <img className='image' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/NETWORK2.png")} />
+      <img className='image' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/NETWORK3.png")} />
 
       <div className='container'>
 
@@ -27,9 +27,7 @@ const Jumbo = () => {
         </ul>
 
 
-
-        <Button>Get Stated Today</Button>
-
+        <Button></Button>
 
       </div>
 

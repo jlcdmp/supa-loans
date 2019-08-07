@@ -12,7 +12,7 @@ class How extends Component {
         <div className='how-content'>
 
 
-          <h2>How It Works</h2>
+          <h2 className='page-title' >How It Works</h2>
           <h3>Supa Easy 4 Step Process</h3>
           <div class='how-store'>
 
@@ -46,10 +46,10 @@ class How extends Component {
             <Table borderless={true}>
               <thead>
                 <tr>
-                  <th>Loan Amount</th>
-                  <th>Interest Rate</th>
-                  <th>Loan Term</th>
-                  <th>Fee</th>
+                  <th class='text-center' >Loan Amount</th>
+                  <th class='text-center' >Interest Rate</th>
+                  <th class='text-center' >Loan Term</th>
+                  <th class='text-center' >Fee</th>
                 </tr>
               </thead>
               <tbody>
@@ -72,10 +72,10 @@ class How extends Component {
             <Table borderless={true} >
               <thead>
                 <tr>
-                  <th>Monthly Payment</th>
-                  <th>APR</th>
-                  <th>Total Payment</th>
-                  <th>Total Cost</th>
+                  <th class='text-center' >Monthly Payment</th>
+                  <th class='text-center' >APR</th>
+                  <th class='text-center' >Total Payment</th>
+                  <th class='text-center' >Total Cost</th>
                 </tr>
               </thead>
               <tbody>
@@ -104,7 +104,7 @@ class How extends Component {
 
           <div className='how-terms'>
 
-            <p> <strong>For example:</strong> the $2,000 representative loan above with a 24-month term and a 5% origination fee, would have a total cost, including the 5% origination fee ($100) plus interest, of $519.68 and a total payback amount of $2,419.68. All fees associated with any loan are required to be disclosed by the lender in terms of APR.</p>
+            <p> <strong>For example:</strong> The $2,000 representative loan above with a 24-month term and a 5% origination fee, would have a total cost, including the 5% origination fee ($100) plus interest, of $519.68 and a total payback amount of $2,419.68. All fees associated with any loan are required to be disclosed by the lender in terms of APR.</p>
             <p>Qualified consumers who are approved by a lender will receive loan offers with the below range of loan terms and maximum APR</p>
           </div>
 

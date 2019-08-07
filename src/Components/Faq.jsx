@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Accordion, Card, Button } from 'react-bootstrap'
+import { Accordion, Card } from 'react-bootstrap'
+import '../CSS/Faq.css'
 
 class Faq extends Component {
   state = {}
@@ -7,27 +8,53 @@ class Faq extends Component {
   render() {
     return (
       <div className='faq'>
-        <h2>Frequently Asked Questions</h2>
-        <h3>What Is A Perosnal Loan?</h3>
-        <p>A personal loan is a fixed term loan that can be used for a variety of purposes such as home improvements or vehicle repairs. The terms vary from 1-5 years. Simply complete some information about yourself and get an answer while you wait! If selected by a lender, they will provide you with detailed loan documents including APR and repayment terms. It’s that simple! </p>
-        <h3>What are some of the lender requirements to qualify for a Personal Loan?
-</h3>
-        <ol>
-          <li>Being 18 years or older</li>
-          <li>A U.S citizen</li>
-          <li>Seeking $1,000 or more</li>
-          <li>A steady job or other source of regular income</li>
-          <li>A bank account preferably with Direct Deposit. </li>
-        </ol>
-        <h3>What Can I Use A Persnoal Loan For?</h3>
-        <ol>
-          <li>Unexpected Emergencys</li>
-          <li>Medical Bills</li>
-          <li>Vehicle Repairs</li>
-          <li>Debt Consolidation</li>
-          <li>business Loans</li>
-          <li>Home Improvments</li>
-        </ol>
+        <h2 className='page-title' >Frequently Asked Questions</h2>
+
+
+
+        <div>
+
+          <h4>What Is A Perosnal Loan?</h4>
+          <p>A personal loan is a fixed term loan that can be used for a variety of purposes such as home improvements or vehicle repairs. The terms vary from 1-5 years. Simply complete some information about yourself and get an answer while you wait! If selected by a lender, they will provide you with detailed loan documents including APR and repayment terms. It’s that simple! </p>
+        </div>
+
+        <div className='faq-container'>
+
+          <div>
+
+            <h4>What are some of the requirements for a Personal Loan?
+</h4>
+            <ol>
+              <li>Being 18 years or older</li>
+              <li>A U.S citizen</li>
+              <li>Seeking $1,000 or more</li>
+              <li>A steady job or other source of regular income</li>
+              <li>A bank account preferably with Direct Deposit. </li>
+            </ol>
+          </div>
+
+
+          <div>
+
+
+            <h3>What Can I Use A Personal Loan For?</h3>
+            <ol>
+              <li>Unexpected Emergencys</li>
+              <li>Medical Bills</li>
+              <li>Vehicle Repairs</li>
+              <li>Debt Consolidation</li>
+              <li>business Loans</li>
+              <li>Home Improvments</li>
+            </ol>
+          </div>
+
+
+
+        </div>
+
+
+
+
 
 
         <Accordion>

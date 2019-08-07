@@ -45,7 +45,7 @@ right: 5%
 .shad{
   font-size: 1.3em;
   font-weight: 500;
-  color: grey;
+  color: #8594ca;
 margin:0;
 }
 
@@ -53,7 +53,7 @@ margin:0;
   font-size: 3em;
   font-weight: 600;
   margin:0;
-
+  color: #2946b3
 
 }
 
@@ -63,7 +63,8 @@ margin:0;
 .sub{
 margin:0;
 font-size: 2.5em;
-font-weight: 500
+font-weight: 500;
+color:#6c7cb6;
 }
 
 
@@ -73,7 +74,7 @@ font-weight: 500
   display:grid;
   position: absolute;
   z-index: 2;
-  top:19%;
+  top:15.3%;
   left:5%;
 }
 
@@ -87,13 +88,13 @@ color: aliceblue
 }
 
 
-li {
+.list li{
   background-image: url(../images/checkbox.png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: left center;
   margin:0;
-  	padding: 0 0 0 40px;
+  padding: 0 0 0 40px;
 
 }
 
