@@ -1,0 +1,55 @@
+.apply{
+  display:flex;
+  flex-direction: column;
+  margin: 1em 2em 1em
+}
+
+
+.amount-container{
+  border-bottom: solid grey 1px;
+  margin:10px;
+}
+
+.personal-container{
+   border-bottom: solid grey 1px;
+  margin:10px;
+}
+
+
+.income-container{
+   border-bottom: solid grey 1px;
+  margin:10px;
+}
+
+
+.bank-container{
+ border-bottom: solid grey 1px;
+  margin:10px;
+}
+
+
+.terms-container{
+  margin:10px;
+}
+
+.apply-container{
+   border-bottom: solid grey 1px;
+  margin:10px;
+}
+
+.info-container{
+     border-bottom: solid grey 1px;
+  margin:10px;
+}
+
+
+.progress{
+  padding:10px;
+  margin:10px
+}
+
+
+.btn-primary{
+margin:10px;
+width:50%
+}
