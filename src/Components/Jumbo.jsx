@@ -1,24 +1,39 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import '../CSS/Jumbo.css'
 
 const Jumbo = () => {
   return (
     <div className='jumbo'>
 
-      <div className='main-text' >
-        <h3>Loan Comparrison</h3>
-        <h2 className='title' >Personal Installment loans the supa way.</h2>
+
+
+
+      <img className='image' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/NETWORK2.png")} />
+
+      <div className='container'>
+
+
+
+        <p className='shad' >Loan Comparrison</p>
+        <p className='title' >Personal Installment Loans</p>
+        <p className='sub'>The Supa Way</p>
+
+
+        <ul className='list' >
+          <li>Supa Quick </li>
+          <li>Supa Simple </li>
+          <li>Supa Easy </li>
+        </ul>
+
+
+
+        <Button>Get Stated Today</Button>
+
+
       </div>
 
-      <div className="title-body">
-        <h4>Supa Easy</h4>
-        <p>4 step process</p>
-        <h4>Supa Quick</h4>
-        <p>Same day decisions*</p>
-        <h4>Supa Simple</h4>
-        <p>flexible re-payements</p>
-      </div>
+
 
     </div>
 

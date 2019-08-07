@@ -42,7 +42,8 @@ class Apply extends Component {
     },
 
     now: 0,
-    button: true
+    button: true,
+    filled: 0,
   }
 
   render() {
@@ -52,14 +53,14 @@ class Apply extends Component {
     return (
       <div className='apply'>
 
-        <Form onSubmit={this.handleSubmit}>
+        <Form autocomplete='on' onSubmit={this.handleSubmit}>
 
           <h2>Your Loan Application</h2>
 
 
           <div className='amount-container'>
             <Form.Group controlId="exampleForm.ControlTextarea1">
-              <Form.Label>Loan Amount: ${this.state.amount}</Form.Label>
+              <h3 className='amount'>Loan Amount ${this.state.amount}</h3>
               <input type="range" className="custom-range" id="customRange1" min={1000} max={5000} step={50} name='amount' onChange={this.handleChange} />
             </Form.Group>
 
@@ -76,14 +77,14 @@ class Apply extends Component {
 
 
           <div className='personal-container'>
-            <h3>Personal Details</h3>
-            <h5>We use these details to confirm that it is you making the application</h5>
+            <h4>Personal Details</h4>
+            <h6>We use these details to confirm that it is you making the application</h6>
 
 
             <Form.Row>
               <Form.Group as={Col} controlId="exampleForm.ControlSelect1">
                 <Form.Label>Title</Form.Label>
-                <Form.Control name='title' onChange={this.handleChange} required as="select" >
+                <Form.Control onClick={this.handleClick} name='title' onChange={this.handleChange} required as="select" >
                   <option>Mr</option>
                   <option>Miss</option>
                   <option>Mrs</option>
@@ -124,22 +125,22 @@ class Apply extends Component {
             <Form.Row>
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>Email</Form.Label>
-                <Form.Control name='email' onChange={this.handleChange} required type="email" placeholder="Enter email" />
+                <Form.Control name='email' onChange={this.handleChange} required type="email" />
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
-                <Form.Label>Social Security Number</Form.Label>
+                <Form.Label>SSN</Form.Label>
                 <Form.Control name='ssn' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
-                <Form.Label>Date Of Birth (MM/DD/YYYY)</Form.Label>
-                <Form.Control name='dob' onChange={this.handleChange} required as='textarea' rows='1' />
+                <Form.Label>Date Of Birth </Form.Label>
+                <Form.Control name='dob' placeholder='MM/DD/YYYY' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
             </Form.Row>
 
 
             <Form.Row>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
-                <Form.Label>Driver's License OR State ID</Form.Label>
+                <Form.Label>License/State ID</Form.Label>
                 <Form.Control name='lisence' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
 
@@ -173,7 +174,7 @@ class Apply extends Component {
                 <Form.Control name='zip' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
-                <Form.Label>House Name/Number</Form.Label>
+                <Form.Label>House Number</Form.Label>
                 <Form.Control name='nameNumber' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
@@ -205,13 +206,13 @@ class Apply extends Component {
 
 
           <div className='income-container'>
-            <h3>Income Detials</h3>
-            <h5>Lenders use these details to verify your eligibility</h5>
+            <h4>Income Detials</h4>
+            <h6>Lenders use these details to verify your eligibility</h6>
 
             <Form.Row>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
                 <Form.Label>Income Source</Form.Label>
-                <Form.Control name='source' onChange={this.handleChange} required as='select' rows='1' >
+                <Form.Control name='source' onClick={this.handleClick} onChange={this.handleChange} required as='select' rows='1' >
                   <option>Full Time</option>
                   <option>Part Time</option>
                   <option>Temporary </option>
@@ -242,7 +243,7 @@ class Apply extends Component {
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
                 <Form.Label>Time At Employer</Form.Label>
-                <Form.Control name='empTime' onChange={this.handleChange} placeholder='(YYYY/MM)' required as='textarea' rows='1' />
+                <Form.Control name='empTime' onChange={this.handleChange} placeholder='YYYY/MM' required as='textarea' rows='1' />
               </Form.Group>
             </Form.Row>
 
@@ -269,20 +270,20 @@ class Apply extends Component {
           </div>
 
           <div className='bank-container'>
-            <h3>Bank Details</h3>
-            <h5>Please enter the details of the account you want the funds deposited into. This is secure and cannot be used to withdraw money from your account.</h5>
+            <h4>Bank Details</h4>
+            <h6>Please enter the details of the account you want the funds deposited into. This is secure and cannot be used to withdraw money from your account.</h6>
 
             <Form.Row>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
                 <Form.Label>Bank Name</Form.Label>
-                <Form.Control name='bankName' onChange={this.handleChange} required as='textarea' rows='1' />
+                <Form.Control name='bankName' onClick={this.handleClick} onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
                 <Form.Label>Account Number</Form.Label>
                 <Form.Control name='accNum' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
-                <Form.Label>ABA/ Routing Number</Form.Label>
+                <Form.Label>Routing Number</Form.Label>
                 <Form.Control name='ABA' onChange={this.handleChange} required as='textarea' rows='1' />
               </Form.Group>
             </Form.Row>
@@ -297,7 +298,7 @@ class Apply extends Component {
               </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1" >
                 <Form.Label>Time At Bank</Form.Label>
-                <Form.Control name='bankTime' onChange={this.handleChange} placeholder='(MM/YYYY)' required as='textarea' rows='1' />
+                <Form.Control name='bankTime' onChange={this.handleChange} placeholder='MM/YYYY' required as='textarea' rows='1' />
               </Form.Group>
 
             </Form.Row>
@@ -309,15 +310,15 @@ class Apply extends Component {
 
 
           <div className='terms-container'>
-            <h3>Terms</h3>
-            <h5>Please consent to our Terms & Conditions and Privacy Policy</h5>
+            <h4>Terms</h4>
+            <h6>Please consent to our Terms & Conditions and Privacy Policy</h6>
 
             <p>By submitting this online form I confirm that I have read and understood PingYo’s  Terms & Conditions,  Privacy Policy, and E-Consent.</p>
             <br />
 
 
             <Form.Group controlId="formBasicChecbox">
-              <Form.Check name='agree' onChange={this.handleChange} type="checkbox" label="I agree that by submitting this application and clicking Apply Now, I provide my signature expressly consenting to receive recurring communication from PingYo and 3rd Party partners via telephone, text message or email against the number provided on the application.  I am not required to enter into this agreement as a condition for obtaining a loan." />
+              <Form.Check name='agree' onClick={this.handleClick} onChange={this.handleChange} type="checkbox" label="I agree that by submitting this application and clicking Apply Now, I provide my signature expressly consenting to receive recurring communication from PingYo and 3rd Party partners via telephone, text message or email against the number provided on the application.  I am not required to enter into this agreement as a condition for obtaining a loan." />
             </Form.Group>
 
             <p> I understand that I will receive a maximum of 10 SMS messages per month and that I can text STOP to opt-out anytime.  I understand that I may incur charges from my telephone operator and that message and data rates may apply. No one from this site will call you directly, we will never request upfront payments, we'll never ask you for money, and we will never ask you to purchase vouchers of any kind.</p>
@@ -360,7 +361,7 @@ class Apply extends Component {
 
           <p>Please review all the loan documents carefully and make sure you understand the terms of the loan being offered. If you do not agree with those terms, simply decline the loan without any penalty. If you agree to the terms, simply follow the instructions provided by the lender. It's that easy!</p>
 
-          <h3>Representative Examples of Costs & APR</h3>
+          <h4>Representative Examples of Costs & APR</h4>
 
           <div className='how-table'>
             <Table borderless={true}>

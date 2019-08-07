@@ -12,10 +12,10 @@ class Home extends Component {
   render() {
     return (
       <>
+
+        <Jumbo></Jumbo>
+
         <div className='home'>
-
-          <Jumbo></Jumbo>
-
           <How />
 
           <Faq />

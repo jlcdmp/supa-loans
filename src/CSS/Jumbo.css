@@ -1,14 +1,102 @@
 .jumbo{
-  padding:10px;
+  height:90vh;
+  padding:5px;
+  display:flex;
+  flex-direction: row-reverse;
+  position: relative;
+  z-index: 0;
+  background-color:#a8b2d7;
 }
 
-.main-text{
-  color:#d3d3f2;
+
+@media (max-width: 800px){
+  .jumbo{
+  display:flex;
+  flex-direction: column;
+  position: static !important;
+  height:85vh;
+  }
+
+
+.image{
+  display: none;
 }
 
-.title-body{
-  color:white;
+.container{
+  position: static !important;
+z-index: auto;
 }
+  
+}
+
+
+
+
+.image{
+width:auto;
+height:75%;
+position: absolute;
+z-index: 1;
+top:10%;
+right: 5%
+}
+
+
+.shad{
+  font-size: 1.3em;
+  font-weight: 500;
+  color: grey;
+margin:0;
+}
+
+.title{
+  font-size: 3em;
+  font-weight: 600;
+  margin:0;
+
+
+}
+
+
+
+
+.sub{
+margin:0;
+font-size: 2.5em;
+font-weight: 500
+}
+
+
+
+
+.container{
+  display:grid;
+  position: absolute;
+  z-index: 2;
+  top:19%;
+  left:5%;
+}
+
+
+.list{
+  list-style: none;
+margin:0;
+font-size: 2em;
+font-weight:500;
+color: aliceblue
+}
+
+
+li {
+  background-image: url(../images/checkbox.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left center;
+  margin:0;
+  	padding: 0 0 0 40px;
+
+}
+
 
 
 

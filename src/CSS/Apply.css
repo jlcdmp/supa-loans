@@ -1,8 +1,27 @@
 .apply{
   display:flex;
   flex-direction: column;
-  margin: 1em 2em 1em
+  margin: 1em 1.5em 1em;
 }
+
+
+
+
+@media (max-width: 805px){
+  form{
+    display: inline-block
+  }
+}
+
+.amount{
+  font-weight: 600;
+  text-align: center
+}
+
+.form-label{
+  font-size: 0.75em
+}
+
 
 
 .amount-container{
@@ -52,4 +71,13 @@
 .btn-primary{
 margin:10px;
 width:50%
+}
+
+
+h6{
+  color: grey
+}
+
+h4{
+  color: #222222
 }
