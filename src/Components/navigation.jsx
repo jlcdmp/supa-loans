@@ -21,7 +21,7 @@ const Navigation = () => {
 
         <Nav className="navigation">
 
-          <Link className='nav-link' to='/' >Home</Link>
+          <a className='nav-link' to='/' >Home</a>
           <Link className='nav-link' to=''>How It Works</Link>
           <Link className='nav-link' to=''>Questions</Link>
           <Link className='nav-link' to=''>Fees</Link>
