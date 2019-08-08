@@ -22,9 +22,9 @@ const Navigation = () => {
         <Nav className="navigation">
 
           <Link className='nav-link' to='/' >Home</Link>
-          <Link className='nav-link' to='/how' >How It Works</Link>
-          <Link className='nav-link' to='/Faq'>Questions</Link>
-          <Link className='nav-link' to='/Fees'>Fees</Link>
+          <Link className='nav-link' to=''>How It Works</Link>
+          <Link className='nav-link' to=''>Questions</Link>
+          <Link className='nav-link' to=''>Fees</Link>
 
 
 
@@ -45,6 +45,9 @@ const Navigation = () => {
 
 
   );
+
 }
+
+
 
 export default Navigation;

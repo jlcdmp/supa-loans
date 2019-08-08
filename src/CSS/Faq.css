@@ -27,6 +27,9 @@ ol li{
 }
 
 
+.faq-container{
+  padding:2px
+}
 
 
 
@@ -77,35 +80,27 @@ grid-gap: 5px
   flex-direction: column;
   margin-bottom: 30px
 }
-
 #use h4{
   margin-bottom: 10px
   ;font-size: 1.3em
 }
-
-
 #reqs h4{
   font-size: 1.3em
 }
-
-
-
 }
-
-
 
 
 #use{
   display: flex;
   flex-direction: column;
-  margin:auto;
-          text-align: center;
-
+  text-align: center;
+  margin:5px;
+  position: relative;
 }
 
 #reqs{
-      margin:auto;
-              text-align: center;
+  margin:5px;;
+  text-align: center;
 
 }
 

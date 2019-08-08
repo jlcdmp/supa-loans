@@ -2,7 +2,8 @@
 display:grid;
 grid-gap: 5px;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr;
+grid-template-rows: 1fr;;
+margin-top:30px;
 }
 
 
@@ -37,11 +38,6 @@ grid-template-rows: 1fr 1fr;
 margin:0;
 height:15em;
 }
-
-
-
-
-
 
 
 p.card-body-p{

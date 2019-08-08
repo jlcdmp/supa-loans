@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='hello'>
       <Navigation />
-      <Router primary={false} >
+      <Router >
         <Home path='/' />
         <How path='/how' />
         <Faq path='/faq' />

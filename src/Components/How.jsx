@@ -8,7 +8,7 @@ class How extends Component {
 
   render() {
     return (
-      <div className='how' ref={'how'}>
+      <div className='how' id='how'>
         <div className='how-content'>
           <h2 className='page-title' >How It Works</h2>
           <h3>Supa Easy 4 Step Process</h3>
