@@ -17,9 +17,17 @@ padding:5px;
 }
 
 
+.sub-title{
+  color: aliceblue;
+  font-size: 2em;
+}
+
+
 .page-title{
   font-weight: 600;
   color: aliceblue;
+  font-size: 2.5em;
+  margin:auto;;
 }
 
 .steps-card{
@@ -27,10 +35,16 @@ display: grid;
 grid-gap: 5px;
 grid-template-rows: 1fr 1fr;
 margin:0;
-height:15em
+height:15em;
 }
 
-p.card-body{
+
+
+
+
+
+
+p.card-body-p{
   font-size: 1em;
   color: white;
   font-weight: 600;
@@ -56,8 +70,13 @@ p.card-body{
 
 
 .how-terms{
-  padding:5px;
+margin:10px;
+text-align: justify;
+color: #222222;
+font-weight: 500;
+
 }
+
 
 
 .how-table{
@@ -65,21 +84,18 @@ background-color: aliceblue
 }
 
 
-.table.table-borderless{
-    display: inline-block;
-    width:50%;
-    margin:auto;
-  }
+.table{
+margin:0 !important;
+}
 
-@media (max-width: 805px){
-.table.table-borderless{
-    font-size: 16px;
-    width: 100%;
-}
-}
+
 
 
 .table td{
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 0.85em !important;
+color: black
 }
+
+

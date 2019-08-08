@@ -55,13 +55,15 @@ class Apply extends Component {
 
         <Form autocomplete='on' onSubmit={this.handleSubmit}>
 
-          <h2>Your Loan Application</h2>
+          <h2 className='h2-title'>Your Loan Application</h2>
 
 
           <div className='amount-container'>
             <Form.Group controlId="exampleForm.ControlTextarea1">
-              <h3 className='amount'>Loan Amount ${this.state.amount}</h3>
+              <h3 className='amount'>Loan Amount <strong>${this.state.amount}</strong></h3>
               <input type="range" className="custom-range" id="customRange1" min={1000} max={5000} step={50} name='amount' onChange={this.handleChange} />
+
+
             </Form.Group>
 
 

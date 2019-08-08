@@ -12,16 +12,16 @@ import { Router } from '@reach/router'
 
 function App() {
   return (
-    <>
+    <div className='hello'>
       <Navigation />
       <Router>
-        <Home path='/home' />
+        <Home path='/' />
         <How path='/how' />
         <Faq path='/faq' />
         <Fees path='/fees' />
         <Apply path='apply' />
       </Router>
-    </>
+    </div>
   );
 }
 

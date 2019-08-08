@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Accordion, Card, Button } from 'react-bootstrap'
+import { Accordion, Card } from 'react-bootstrap';
+import '../CSS/Disc.css'
 
 class Disc extends Component {
   state = {}
@@ -7,10 +8,11 @@ class Disc extends Component {
   render() {
     return (
 
-      <div>
-        <h2>Disclosure Policy</h2>
-        <p>The following disclosures are presented to you pursuant to the terms and conditions of our service agreement with GOOGLE, Inc. They are not required by any federal, state or local laws. They are provided to you as informational services only and may not be construed as legal advice. We are not the lender and do not have access to the full terms of your loan.
-<br />
+      <div className='disc' >
+        <h2 className='page-title'>Disclosure Policy</h2>
+        <p>The following disclosures are presented to you pursuant to the terms and conditions of our service agreement with GOOGLE, Inc. They are not required by any federal, state or local laws. They are provided to you as informational services only and may not be construed as legal advice. We are not the lender and do not have access to the full terms of your loan.</p>
+
+        <p>
           The loans provided by our referral sources are term loans for 1 to 5 years. These types of loans are not a solution if you are facing long term debt and credit difficulties, and should not be used on a long-term basis. You should only borrow an amount that can be repaid within 1 to 5 years.</p>
 
 
