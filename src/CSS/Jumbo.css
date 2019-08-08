@@ -17,7 +17,7 @@
   height:85vh;
   }
 
-  button.btn.btn-primary{
+  a.btn.btn-primary{
       justify-self: center;
       margin:10px !important;
 
@@ -42,8 +42,8 @@ width:auto;
 height:75%;
 position: absolute;
 z-index: 1;
-top:10%;
-right: 5%
+top:7%;
+right: 4%
 }
 
 
@@ -94,7 +94,7 @@ color: aliceblue
 
 
 .list li{
-  background-image: url(../images/checkbox.png);
+  background-image: url(../images/tick.png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: left center;
@@ -106,8 +106,8 @@ color: aliceblue
 
 
 
-button.btn.btn-primary{
-  background-color: transparent;
+a.btn.btn-primary{
+  background-color: transparent ;
   border:aliceblue solid 2px ;
   color:aliceblue;
   font-weight: 650;

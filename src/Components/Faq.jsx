@@ -7,7 +7,7 @@ class Faq extends Component {
 
   render() {
     return (
-      <div className='faq'>
+      <div className='faq' ref={"faq"}>
         <h2 className='page-title' >Frequently Asked Questions</h2>
 
         <div className='faq-container'>
@@ -119,7 +119,7 @@ class Faq extends Component {
             </Card>
 
 
-            <Card>
+            <Card ref={'fees'}>
               <Accordion.Toggle as={Card.Header} variant="link" eventKey="3">
                 What Are The Fee's?
       </Accordion.Toggle>

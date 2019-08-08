@@ -27,7 +27,7 @@ const Jumbo = () => {
         </ul>
 
 
-        <Button>Secure A Loan Today</Button>
+        <Button href={'apply'} >Secure A Loan Today</Button>
 
       </div>
 
