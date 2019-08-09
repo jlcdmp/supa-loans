@@ -18,9 +18,9 @@
   }
 
   a.btn.btn-primary{
-      justify-self: center;
+      justify-self: right;
       margin:10px !important;
-
+    padding:0 !important
   }
 
 .image{
@@ -34,7 +34,7 @@
 
 .container{
   position: static !important;
-z-index: auto;
+  z-index: auto;
 }
   
 }
@@ -113,11 +113,12 @@ color: aliceblue
 
 a.btn.btn-primary{
   background-color: transparent ;
-  border: none;
+  border: solid aliceblue 3px;
   color:aliceblue;
   font-weight: 650;
   margin:10px 10px 10px 175px;
   width: 300px !important;
   text-decoration: aliceblue;
-  font-size: 1.1em
+  font-size: 1.1em;
+  
 }
