@@ -6,6 +6,7 @@ import Faq from './Components/Faq'
 import Apply from './Components/Apply'
 import Navigation from './Components/Navigation'
 import { Router } from '@reach/router'
+import Sucsess from './Components/Sucsess'
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <How path='/how' />
         <Faq path='/faq' />
         <Apply path='apply' />
+        <Sucsess path='/sucsess' />
       </Router>
     </div>
   );

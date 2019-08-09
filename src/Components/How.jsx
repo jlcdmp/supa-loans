@@ -15,34 +15,31 @@ class How extends Component {
           <div class='how-store' onScroll={console.log('scollin')}>
             <Fade duration={1700}>
               <div className='steps-card' id='c1' >
-                <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/cursor.png")} />
+                <img className='step-img' src={require("../images/cursor.png")} />
                 <p className='card-body-p'  > <strong>1. </strong>Select Your Credit Score, Reason for Loan and Monthly Income.</p>
               </div>
             </Fade>
             <Fade duration={1700} delay={850} >
               <div className='steps-card' id='c2'>
-                <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/clipboard-fill.png")} />
+                <img className='step-img' src={require("../images/clipboard-fill.png")} />
                 <p className='card-body-p'> <strong>2. </strong>Complete a short form, All information is encrypted once submitted.</p>
               </div>
             </Fade>
             <Fade duration={1700} delay={1700}>
               <div className='steps-card' id='c3' >
-                <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/clipboard.png")} />
+                <img className='step-img' src={require("../images/clipboard.png")} />
                 <p className='card-body-p' > <strong>3. </strong>Once your information is processed  we search the internet for a succsesfull loan.</p>
               </div>
             </Fade>
             <Fade duration={1700} delay={2550} >
               <div className='steps-card' id='c4' >
-                <img className='step-img' src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/handshake.png")} />
+                <img className='step-img' src={require("../images/handshake.png")} />
                 <p className='card-body-p' > <strong>4. </strong> If  accepted by a lender  we will redirect you to their website to complete the process.</p>
               </div>
             </Fade>
           </div>
           <p>Please review all the loan documents carefully and make sure you understand the terms of the loan being offered. If you do not agree with those terms, simply decline the loan without any penalty. If you agree to the terms, simply follow the instructions provided by the lender. It's that easy!</p>
           <h3 className='sub-title'>Representative Examples of Costs & APR</h3>
-
-
-
           <div className='how-table'>
             <Table borderless={false}>
               <thead>

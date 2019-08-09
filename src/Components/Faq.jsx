@@ -25,11 +25,11 @@ class Faq extends Component {
 
             <h4>What are some of the requirements?</h4>
             <ol>
-              <li>Being 18 years or older</li>
+              <li>You are at least 18 years older</li>
               <li>A U.S citizen</li>
-              <li>Seeking $1,000 or more</li>
-              <li>A steady job or other source of regular income</li>
-              <li>A bank account preferably with Direct Deposit</li>
+              <li>Seeking at least $1,000</li>
+              <li>Regular income</li>
+              <li>A direct deposit bank account</li>
             </ol>
 
           </div>

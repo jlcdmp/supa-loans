@@ -24,7 +24,12 @@
   }
 
 .image{
-  display: none;
+  opacity: 0.2;
+  position: absolute;
+  width:auto;
+  height:40% !important;
+  top: 19% !important
+
 }
 
 .container{
@@ -108,9 +113,11 @@ color: aliceblue
 
 a.btn.btn-primary{
   background-color: transparent ;
-  border:aliceblue solid 2px ;
+  border: none;
   color:aliceblue;
   font-weight: 650;
   margin:10px 10px 10px 175px;
-  width: 200px !important;
+  width: 300px !important;
+  text-decoration: aliceblue;
+  font-size: 1.1em
 }

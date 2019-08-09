@@ -1,0 +1,59 @@
+.sucsess{
+  height:100vh;
+  display: flex;
+justify-content: center;
+}
+
+
+.sucsess-container{
+padding:5px;
+text-align: center;
+margin:auto;
+background-color: #92a1d1;
+border-radius: 5px
+}
+
+
+.sucsess img{
+  width: 13em;
+  height:auto;
+  padding:10px;
+  margin:auto;
+}
+
+
+.sucsess p{
+  font-size: 4.5em;
+  font-weight: 600;
+  color: #5559b1;
+  margin:10px
+}
+
+
+.sub-1{
+  font-size: 2.5em !important;
+  padding:10px;
+  color: #6d7db4 !important;
+  margin:10px;
+} 
+
+
+@media (max-width:800px){
+
+.sucsess p{
+  font-size: 2.5em
+}
+
+.sub-1{
+  font-size: 1.5em !important
+}
+
+.sucsess-container{
+  margin:30% auto auto auto;
+}
+
+.sucsess img{
+  margin:20px;
+}
+
+}
