@@ -93,7 +93,7 @@ textarea {
 }
 
 .apply-container{
-   border-bottom: solid grey 1px;
+   border-bottom: dotted grey 1px;
   margin:10px;
 }
 
@@ -167,30 +167,27 @@ h4{
 
 .apply-container{
   margin: auto !important;
-  text-align: left
+  text-align: center;
 }
 
 
 button.btn.btn-primary{
-  border: none;
-  margin-bottom: 30px;
-  background: none !important
+  border: solid 1px green;
+  background-color: #62ab69 !important;
+  margin:10px;
+  font-weight: 700;
+  color: aliceblue !important;
 }
 
 
 .progress{
-  height:40px !important;
-  background: none !important;
-  border-radius: 0 !important;
-  font-weight: 700;
-  font-size: 1.7em !important;
+  width:50%;
+  margin:auto
 }
 
 
 .progress-bar{
 background-color: #62ab69 !important;
 border-radius: 2px;
-border: green solid 3px !important
-
+border: green solid 0.5px !important
 }
-

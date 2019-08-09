@@ -44,7 +44,7 @@ class Apply extends Component {
       argree: null
     },
 
-    now: 0,
+    now: '',
     button: true,
     filled: 0,
     buttonState: '',
@@ -264,10 +264,10 @@ class Apply extends Component {
             <br />
             <Form.Group controlId="formBasicChecbox">
 
-              <Form.Check onClick={this.handleInput} name='agree' onChange={this.handleChange} type="checkbox" label="I agree that by submitting this application and clicking Apply Now, I provide my signature expressly consenting to receive recurring communication from PingYo and 3rd Party partners via telephone, text message or email against the number provided on the application.  I am not required to enter into this agreement as a condition for obtaining a loan." />
+              <Form.Check onClick={this.handleInput} name='agree' onChange={this.handleChange} type="checkbox" label="I agree that by submitting this application and clicking Apply Now, I provide my signature expressly consenting to receive recurring communication from PingYo and 3rd Party partners via telephone, text message or email against the number provided on the application.  I am not required to enter into this agreement as a condition for obtaining a loan. I understand that I will receive a maximum of 10 SMS messages per month and that I can text STOP to opt-out anytime.  I understand that I may incur charges from my telephone operator and that message and data rates may apply. No one from this site will call you directly, we will never request upfront payments, we'll never ask you for money, and we will never ask you to purchase vouchers of any kind." />
             </Form.Group>
 
-            <p> I understand that I will receive a maximum of 10 SMS messages per month and that I can text STOP to opt-out anytime.  I understand that I may incur charges from my telephone operator and that message and data rates may apply. No one from this site will call you directly, we will never request upfront payments, we'll never ask you for money, and we will never ask you to purchase vouchers of any kind.</p>
+
             <p  >
               Note: You can opt-out of these communications at any time. For more details please see our Privacy Policy which also explains the types of companies who may contact you and the way they will use the information you have provided today as well as in the past. Be assured that any such parties will use your data in accordance with all applicable law relating to privacy.
              </p>
@@ -277,8 +277,9 @@ class Apply extends Component {
 
 
 
-            <Button type='submit' onClick={this.handleSubmit} >
-              <ProgressBar label={`${this.state.now}`} now={this.state.now} />
+            <ProgressBar now={this.state.now} />
+            <Button disabled={this.state.button} type='submit' onClick={this.handleSubmit} >
+              APPLY!
             </Button>
 
 
@@ -361,20 +362,21 @@ class Apply extends Component {
       count: prevState.count + 1
     }))
 
-    this.setState(this.state.count === 17 ? this.setState({ now: 25 }) :
-      this.state.count === 24 ? this.setState({ now: 50 }) :
-        this.setState(this.state.count === 29 ? this.setState({ now: 75 }) :
-          this.setState(this.state.count === 30 ? this.setState({ now: 'APPLY!' })
-            : null)
 
-
-
-
-        )
+    this.setState(prevState =>
+      this.state.now == 100 ? ({ button: !prevState.button }) : null
 
 
     )
 
+
+
+
+    this.setState(this.state.count === 17 ? this.setState({ now: 25 }) :
+      this.state.count === 24 ? this.setState({ now: 50 }) :
+        this.setState(this.state.count === 29 ? this.setState({ now: 75 }) :
+          this.setState(this.state.count === 30 ? this.setState({ now: 100 })
+            : null)))
 
   }
 

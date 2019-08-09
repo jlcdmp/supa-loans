@@ -56,7 +56,7 @@ class Faq extends Component {
 
               <div className='faq-card' id='fc3' >
                 <img src={require("/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/tools.png")} />
-                <p>Home improvments</p>
+                <p>Home Improvments</p>
               </div>
 
               <div className='faq-card' id='fc4' >

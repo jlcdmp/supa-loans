@@ -35,6 +35,7 @@
 .container{
   position: static !important;
   z-index: auto;
+  margin-bottom:10px
 }
   
 }

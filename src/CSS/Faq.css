@@ -63,7 +63,7 @@ grid-gap: 5px
   width:3.5em;
   height:auto;
   padding: 0 5px 0 0;
-
+  margin:5px;
 }
 
 .reqs-use{
