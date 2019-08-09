@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import How from './Components/How'
 import Faq from './Components/Faq'
 import Apply from './Components/Apply'
-import Navigation from './Components/Navigation'
+import Navigation from './Components/Navigation.jsx'
 import { Router } from '@reach/router'
 import Sucsess from './Components/Sucsess'
 
