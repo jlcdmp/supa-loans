@@ -5,7 +5,7 @@ ol{
 }
 
 .faq-container p{
-  text-align: justify;
+  text-align: c;
   font-weight: 450;
 }
 
@@ -27,18 +27,16 @@ ol li{
 }
 
 
-.faq-container{
-}
-
 
 
 .faq-card-container{
   display:grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr ;
-margin:auto;
-grid-gap: 5px
+  grid-gap: 5px;
 }
+
+
 
 .faq-card{
   display:flex;
@@ -60,7 +58,7 @@ grid-gap: 5px
 
 
 .faq-card img{
-  width:3.5em;
+  width:3em;
   height:auto;
   padding: 0 5px 0 0;
   margin:5px;
@@ -79,10 +77,14 @@ grid-gap: 5px
   flex-direction: column;
   margin-bottom: 30px
 }
+
+
 #use h4{
-  margin-bottom: 10px
-  ;font-size: 1.3em
+  margin-bottom: 10px;
+  font-size: 1.3em;
 }
+
+
 #reqs h4{
   font-size: 1.3em
 }
@@ -93,14 +95,12 @@ grid-gap: 5px
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin:5px;
-  position: relative;
 }
 
 #reqs{
-  margin:5px;;
   text-align: center;
-
+  display: flex;
+  flex-direction: column
 }
 
 .acc-container{
