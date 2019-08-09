@@ -18,7 +18,7 @@ function App() {
         <Home path='/' />
         <How path='/how' />
         <Faq path='/faq' />
-        <Apply path='apply' />
+        <Apply path='/apply' />
         <Sucsess path='/sucsess' />
       </Router>
     </div>
