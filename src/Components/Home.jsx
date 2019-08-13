@@ -4,6 +4,9 @@ import How from './How';
 import '../CSS/Home.css'
 import Faq from './Faq';
 import Disc from './Disc';
+import What from './What';
+import Eg from './Eg';
+import Who from './Who';
 
 
 class Home extends Component {
@@ -13,14 +16,27 @@ class Home extends Component {
     return (
       < div className='collumn'>
 
-        <Jumbo></Jumbo>
+        <Jumbo />
 
         <div className='home'>
+
+          <Who />
+
+
           <How />
+
+
+
+          <What />
+
+          <Eg />
 
           <Faq />
 
           <Disc />
+
+
+
         </div>
 
       </ div>

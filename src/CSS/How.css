@@ -2,8 +2,8 @@
 display:grid;
 grid-gap: 5px;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr;;
-margin-top:30px;
+grid-template-rows: 1fr;
+margin-top:10px;
 }
 
 
@@ -14,18 +14,36 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 padding:5px;
 }
- 
 .how-content{
-  margin-top: 30px
+  margin-top: 20px
 }
 
 
+.how-table{
+  width:100% !important;
 }
+
+.table-container{
+  flex-direction: column !important;
+}
+
+}
+
+
+.how h3{
+font-size: 1.6em !important;
+margin:auto;
+padding:5px 0px;
+text-align: center;
+}
+
 
 
 .sub-title{
   color: aliceblue;
   font-size: 2em;
+  text-align: center;
+
 }
 
 
@@ -33,32 +51,32 @@ padding:5px;
   font-weight: 600;
   color: aliceblue;
   font-size: 2.5em;
-  margin:auto;;
+  text-align: center;
+
 }
 
 .steps-card{
 display: grid;
 grid-gap: 5px;
 grid-template-rows: 1fr 1fr;
-margin:0;
 height:15em;
+
 }
 
 
 p.card-body-p{
-  font-size: 1em;
   color: white;
   font-weight: 600;
-  padding:5px;
+  font-size: 0.9em;
   text-align: center;
+  margin:auto;
 }
 
 
 .step-img{
   width:50%;
-  align-self: center;
-  padding:0;
-  margin:auto;
+  height:auto;
+  margin:auto;  
 }
 
 .card-number{
@@ -70,33 +88,58 @@ p.card-body-p{
 }
 
 
-.how-terms{
-margin:10px;
-text-align: justify;
-color: #222222;
-font-weight: 500;
 
+
+
+
+.table-container{
+  display:flex;
+  flex-direction: row;
 }
 
 
 
 .how-table{
-background-color: aliceblue
+padding:5px;
+margin: auto;
+width:50%;
 }
 
 
 .table{
-margin:0 !important;
+font-size: 0.7em;
+text-align: center;
 }
 
+.how-table th{
+  background-color: aliceblue;
+  color: #222222;
+  width:50%;
+  font-size: 1.3em;
+  border-bottom: grey 1px solid !important
+}
 
-
-
-.table td{
-  text-align: center;
+.how-table td{
+  background-color: aliceblue;
+  color: #222222;
+  font-size: 1.3em;
   font-weight: 600;
-  font-size: 0.85em !important;
-color: black
+  border-bottom: grey 1px solid !important
+
+}
+
+.explain-container{
+  background-color: aliceblue;
+  margin:auto;
+  width:100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.explain-container p {
+  text-align: center;
+  font-size: 1em;
+  color: black
 }
 
 

@@ -24,6 +24,7 @@ const Jumbo = () => {
           <li>Supa Quick </li>
           <li>Supa Simple </li>
           <li>Supa Easy </li>
+          <li>Supa Secure</li>
         </ul>
 
 

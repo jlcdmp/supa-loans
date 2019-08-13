@@ -1,6 +1,6 @@
 import React from 'react';
-import { Fade, Slide } from 'react-reveal'
 import Tada from 'react-reveal/Tada'
+import Jump from 'react-reveal/Jump'
 
 import '../CSS/Sucsess.css'
 
@@ -16,9 +16,9 @@ const Sucsess = () => {
 
         <p className='sub-1'>Please check your email.</p>
 
-        <Tada duration={3000} >
+        <Jump duration={2000}>
           <img src={require('../images/handshake2.png')} />
-        </Tada>
+        </Jump>
 
 
 
