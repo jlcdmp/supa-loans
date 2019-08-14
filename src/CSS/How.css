@@ -28,6 +28,7 @@ margin: 5px
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 padding:5px;
+margin: 0 !important
 }
 .how-content{
   margin-top: 20px
@@ -44,7 +45,7 @@ padding:5px;
 
 
 p.card-body-p{
-  font-size: 1.1em !important;
+  font-size: 1em !important;
   font-weight: 500 !important;
 }
 
@@ -116,10 +117,9 @@ height:15em;
 p.card-body-p{
   color: white;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
   padding:3px;
-  width:90%;
   margin:auto;
 }
 
