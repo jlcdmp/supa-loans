@@ -11,13 +11,10 @@ const Navigation = () => {
     <Navbar collapseOnSelect expand="md" >
 
 
-      <a class="navbar-brand" href="#">
-        <img src={require('/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/logo6.png')} alt="" />
-      </a>
 
       <div className='secured'>
 
-        <img src={require('../images/lock.png')} /> <p>A Protected US Site</p>
+        <img src={require('../images/lock.png')} /> <p>SUPA-LOANZ Is A Protected US Site</p>
       </div>
 
 

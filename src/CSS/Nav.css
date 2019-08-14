@@ -19,7 +19,7 @@ justify-content: flex-end;
 .secured{
   display:flex;
   flex-direction: row;
-  border:solid 0.5px #d3d3f2;
+  border:solid 0.5px aliceblue;
   border-radius: 20px;
   padding:3px;
 }
@@ -33,7 +33,7 @@ justify-content: flex-end;
 }
 
 .secured p{
-  color: #d3d3f2;
+  color: aliceblue;
   margin:auto;
   font-size: 0.6em;
   padding:3px;
