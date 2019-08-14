@@ -16,7 +16,9 @@ class Eg extends Component {
 
 
         <h3 className='sub-title'>Representative Examples</h3>
-        <p className='example-sub'>Below is two representative examples, choose between $1,000 or $2,000. <br />For more information visit the FAQ section.</p>
+        <p className='example-sub'>Below is two representative examples
+        <br />
+          choose between $1,000 or $2,000. <br />For more information visit the FAQ section.</p>
 
         <Tabs defaultActiveKey='$1,000'>
           <Tab eventKey='$1,000' title='$1,000'>
@@ -69,7 +71,6 @@ class Eg extends Component {
                 <p>
                   Qualified consumers who are approved by a lender will receive loan offers with the below range of loan terms and maximum APR</p>
                 <p>Minimum of 61 Days, Maximum 84 Months, Maximum APR 35.99%</p>
-                <p></p>
               </div>
             </div>
 
@@ -123,7 +124,6 @@ class Eg extends Component {
                 <p>
                   Qualified consumers who are approved by a lender will receive loan offers with the below range of loan terms and maximum APR</p>
                 <p>Minimum of 61 Days, Maximum 84 Months, Maximum APR 35.99%</p>
-                <p></p>
               </div>
             </div>          </Tab>
 

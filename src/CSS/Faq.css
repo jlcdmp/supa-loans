@@ -83,7 +83,7 @@ ol li{
 @media (max-width: 805px){
 .reqs-use{
   flex-direction: column;
-  margin-bottom: 30px
+  margin-bottom: 20px
 }
 
 
@@ -142,6 +142,7 @@ ol li{
 #reqs{
   display: flex;
   flex-direction: column;
+  margin-bottom: 1em
 }
 
 
