@@ -1,7 +1,7 @@
 .who-container{
   margin: auto;
   padding:10px;
-  width:80%
+  width:90%
 }
 
 .who-container p{
@@ -9,7 +9,7 @@
   font-size: 1.5em;
   margin-bottom:10px !important;
   text-align: center;
-  font-weight: 510
+  font-weight: 500;
 }
 
 @media (max-width:800px){
@@ -20,7 +20,7 @@
   }
 
   .promise img{
-    height:4.2em !important;
+    height:4.1em !important;
     width:4.2em !important;
     padding:0 !important;
     margin:auto !important;
@@ -34,6 +34,7 @@
   .promise li{
     font-size: 0.8em !important;
     margin-bottom: 0.8em;
+    text-align: center;
   }
 
   .promise ul{

@@ -7,6 +7,20 @@ padding:5px;
 margin: 5px
 }
 
+.examples{
+  margin-bottom:3em;
+}
+
+
+.example-sub{
+  text-align: center;
+  font-weight:500 !important;
+  font-size: 1em;
+  width:80%;
+  margin:auto;
+  margin-bottom: 1em;
+  color: #222222
+}
 
 @media (max-width: 805px){
 .how-store{
@@ -34,7 +48,31 @@ p.card-body-p{
   font-weight: 500 !important;
 }
 
+
+.explain-container p{
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  padding:0.3em;
+  text-align: justify
 }
+nav.nav.nav-tabs{
+  width:97% !important
+}
+
+
+}
+
+
+nav.nav.nav-tabs{
+  width:80%;
+  margin:auto;
+}
+
+a.nav-item.nav-link.active{
+  background-color: aliceblue !important;
+}
+
+
 
 
 
@@ -52,10 +90,12 @@ text-align: center;
   color: aliceblue;
   font-size: 2em;
   text-align: center;
-  margin:0.5em;
   margin-top: 2em;
-
+  font-weight: 600;
+  margin-bottom: 0 !important;
 }
+
+
 .page-title{
   font-weight: 600;
   color: aliceblue;
@@ -112,7 +152,9 @@ p.card-body-p{
 
 .how-table{
 padding:5px;
-width:40%;
+width:80%;
+margin: auto;
+
 }
 
 
@@ -120,6 +162,9 @@ width:40%;
 font-size: 0.7em;
 text-align: center;
 }
+
+
+
 
 .how-table th{
   background-color: aliceblue;
@@ -138,22 +183,27 @@ text-align: center;
 
 }
 
+
 .explain-container{
+  text-align: center;
+  padding: 5px;
   margin:auto;
-  width:90%;
-  text-align: justify;
 }
 
 .explain-container p {
   font-size: 1.3em;
   color: aliceblue;
-  font-weight: 600
+  font-weight: 600;
+  margin: 5px;
+
 }
 
 .explain-container h5{
-  text-align: center;
   font-size: 1.4em !important;
   color: #222222 !important;
   font-weight: 700 !important;
-  opacity: 0.8
+  opacity: 0.8;
+  margin:0 !important;
 }
+
+
