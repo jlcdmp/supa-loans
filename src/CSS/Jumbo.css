@@ -18,10 +18,12 @@
   }
 
   a.btn.btn-primary{
-      justify-self: center;
-      margin:10px !important;
-    padding:0 !important
+   width:70% !important
   }
+
+
+
+
 
 .image{
   opacity: 0.2;
@@ -35,7 +37,7 @@
 .container{
   position: static !important;
   z-index: auto;
-  margin-bottom:10px
+  height:100% !important;
 }
   
 
@@ -121,13 +123,18 @@ color: aliceblue
 
 
 a.btn.btn-primary{
-  background-color: transparent ;
-  border: solid aliceblue 3px;
-  color:aliceblue;
   font-weight: 650;
-  margin:10px 10px 10px 175px;
-  width: 300px !important;
-  text-decoration: aliceblue;
-  font-size: 1.1em;
-  
+  font-size: 1.5em;
+  background-color: #5456b4;
+  color:#bbc6f2;
+  border-radius: 20px;
+  width:25%;
+  padding:5px;
+  border:none;
+  text-transform: uppercase;
+}
+
+
+.button-container{
+  text-align: center
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap'
 import '../CSS/Jumbo.css'
+import Pulse from 'react-reveal/Pulse'
 
 const Jumbo = () => {
   return (
@@ -28,7 +29,12 @@ const Jumbo = () => {
         </ul>
 
 
-        <Button href={'apply'} >Secure A Loan Today</Button>
+        <div className='button-container'>
+          <Pulse duration={9000} count={10}>
+            <Button href={'apply'} >Apply Today </Button>
+          </Pulse>
+        </div>
+
 
       </div>
 
