@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap'
+import { Alert } from 'react-bootstrap'
 
 
 class What extends Component {
@@ -24,6 +24,13 @@ class What extends Component {
           <p>
             If selected by a lender, they will provide you with detailed loan documents including APR and repayment terms. It’s that simple! </p>
         </div>
+
+
+
+
+
+
+
 
         <div className='reqs-use'>
 
@@ -79,9 +86,8 @@ class What extends Component {
         </div>
 
 
-        <a href='/apply' className='btn btn-primary'>Ready To Apply?</a>
 
-      </div>
+      </div >
     );
   }
 }

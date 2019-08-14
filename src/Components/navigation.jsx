@@ -15,9 +15,17 @@ const Navigation = () => {
         <img src={require('/Users/josephcarroll/joes-work/supa-loans/supa-loans/src/images/logo6.png')} alt="" />
       </a>
 
+      <div className='secured'>
+
+        <img src={require('../images/lock.png')} /> <p>A Protected US Site</p>
+      </div>
+
+
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
       <Navbar.Collapse id="responsive-navbar-nav">
+
+
 
         <Nav className="navigation">
 
@@ -25,11 +33,8 @@ const Navigation = () => {
           <Link className='nav-link' to=''>How It Works</Link>
           <Link className='nav-link' to=''>Questions</Link>
           <Link className='nav-link' to=''>Fees</Link>
-
-
-
-
         </Nav>
+
 
       </Navbar.Collapse>
     </Navbar>

@@ -14,6 +14,9 @@ class Home extends Component {
 
   render() {
     return (
+
+
+
       < div className='collumn'>
 
         <Jumbo />

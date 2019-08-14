@@ -1,4 +1,28 @@
 .App{
     background-color:#a8b2d7;
+}
 
+
+
+.ribbon-container{
+    background-color: salmon;
+    color: aliceblue;
+    font-size: 1.1em;
+  
+}
+
+.ribbon{
+    text-align: center;
+     display: flex;
+   flex-direction: row;
+   justify-content: center
+}
+
+.ribbon p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.hide{
+color: salmon
 }
