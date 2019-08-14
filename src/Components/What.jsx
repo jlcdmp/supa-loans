@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap'
 
 
 class What extends Component {
@@ -9,12 +10,20 @@ class What extends Component {
 
       <div>
 
-        <h4>What Is A Perosnal Loan?</h4>
-        <p>A personal loan is a fixed term loan that can be used for a variety of purposes such as home improvements or vehicle repairs. The terms vary from 1-5 years. Simply complete some information about yourself and get an answer while you wait! If selected by a lender, they will provide you with detailed loan documents including APR and repayment terms. It’s that simple! </p>
+        <div className='what-container'>
 
 
+          <h4>What Is A Perosnal Loan?</h4>
 
 
+          <p>A personal loan is a fixed term type of loan. They are <u>NOT</u> secured agasint any asssest such as a house, they are also refered to as unsecured loans.</p>
+
+          <p>
+            They can be used for a variety of purposes and the terms vary from 1-5 years. Simply complete some information about yourself and get an answer while you wait! </p>
+
+          <p>
+            If selected by a lender, they will provide you with detailed loan documents including APR and repayment terms. It’s that simple! </p>
+        </div>
 
         <div className='reqs-use'>
 
@@ -68,6 +77,9 @@ class What extends Component {
             </div>
           </div>
         </div>
+
+
+        <a href='/apply' className='btn btn-primary'>Ready To Apply?</a>
 
       </div>
     );

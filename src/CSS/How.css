@@ -3,7 +3,8 @@ display:grid;
 grid-gap: 5px;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr;
-margin-top:10px;
+padding:5px;
+margin: 5px
 }
 
 
@@ -27,7 +28,15 @@ padding:5px;
   flex-direction: column !important;
 }
 
+
+p.card-body-p{
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
 }
+
+}
+
+
 
 
 .how h3{
@@ -35,18 +44,18 @@ font-size: 1.6em !important;
 margin:auto;
 padding:5px 0px;
 text-align: center;
+
+
+
 }
-
-
-
 .sub-title{
   color: aliceblue;
   font-size: 2em;
   text-align: center;
+  margin:0.5em;
+  margin-top: 2em;
 
 }
-
-
 .page-title{
   font-weight: 600;
   color: aliceblue;
@@ -67,8 +76,10 @@ height:15em;
 p.card-body-p{
   color: white;
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 1.1em;
   text-align: center;
+  padding:3px;
+  width:90%;
   margin:auto;
 }
 
@@ -76,7 +87,7 @@ p.card-body-p{
 .step-img{
   width:50%;
   height:auto;
-  margin:auto;  
+  margin:auto;
 }
 
 .card-number{
@@ -101,8 +112,7 @@ p.card-body-p{
 
 .how-table{
 padding:5px;
-margin: auto;
-width:50%;
+width:40%;
 }
 
 
@@ -129,17 +139,21 @@ text-align: center;
 }
 
 .explain-container{
-  background-color: aliceblue;
   margin:auto;
-  width:100%;
-  padding: 10px;
-  text-align: center;
+  width:90%;
+  text-align: justify;
 }
 
 .explain-container p {
-  text-align: center;
-  font-size: 1em;
-  color: black
+  font-size: 1.3em;
+  color: aliceblue;
+  font-weight: 600
 }
 
-
+.explain-container h5{
+  text-align: center;
+  font-size: 1.4em !important;
+  color: #222222 !important;
+  font-weight: 700 !important;
+  opacity: 0.8
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Table } from 'react-bootstrap'
 import '../CSS/How.css'
 import Fade from 'react-reveal/Fade'
 
@@ -11,7 +10,6 @@ class How extends Component {
       <div className='how' id='how'>
         <div className='how-content'>
           <h2 className='page-title' >How It Works</h2>
-          <h3>Supa Easy 4 Step Process</h3>
           <div class='how-store' >
             <Fade duration={1000}>
               <div className='steps-card' id='c1' >

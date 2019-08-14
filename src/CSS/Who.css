@@ -1,16 +1,15 @@
 .who-container{
-  text-align: center;
-  width:90%;
   margin: auto;
-  margin-bottom: 20px
+  padding:10px;
+  width:80%
 }
 
 .who-container p{
-  background-color: aliceblue;
-  color: #222222;
-  font-size: 1.3em;
-  padding:10px;
-  text-align: justify
+  color: aliceblue;
+  font-size: 1.5em;
+  margin-bottom:10px !important;
+  text-align: center;
+  font-weight: 510
 }
 
 @media (max-width:800px){
@@ -20,63 +19,69 @@
     width:100% !important
   }
 
-
-
   .promise img{
-    height:5em !important;
-    width:5em !important
+    height:4.2em !important;
+    width:4.2em !important;
+    padding:0 !important;
+    margin:auto !important;
 
   }
 
   .promise{
-    margin:0 !important;
-    padding: 0 !important
+    margin-bottom:0.1em !important;
   }
 
   .promise li{
-    font-size: 0.5em !important;
-
+    font-size: 0.8em !important;
+    margin-bottom: 0.8em;
   }
-
 
   .promise ul{
-    padding: 5px !important
+    padding: 5px !important;
+list-style: none !important;
   }
-
-
  
+
+.who-container p{
+font-size: 1em !important
+}
+
+.who-container{
+  width:100% !important;
 }
 
 
+}
+
 .promise-container{
   padding:10px;
-  border:dashed white 2px;
   width:90%;
   margin:auto;
+  margin-bottom: 2em;
 }
 
 .promise{
   display:flex;
   flex-direction: row;
-  margin: 10px;
-  border: dotted red 2px
+  margin: auto;
+  background-color: aliceblue;
+  width:95%;
+  padding:5px !important
 }
 
 .promise img{
 height:7em;
 width: 7em;
 margin:5px;
-border: solid 1px white;
 padding:5px;
 }
 
 .promise ul{
-  border: solid white 1px;
   margin:auto;
   width:100%;
 }
 
 .promise li{
   font-size: 1.3em;
-  font-weight: 500
+  font-weight: 520 !important
 }
