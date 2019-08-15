@@ -1,8 +1,18 @@
-.disc p{
-  color: aliceblue;
-  font-weight: 500;
+
+ul.policy-list{
+  list-style: none;
+  padding:5px !important;
   text-align: center;
-  font-size: 1.3em;
+  columns: 2;
+}
+
+
+
+.policy-list li{
+  padding:5px;
+  margin-bottom: .5em;
+  font-weight: 500;
+  font-size: 1.1em
 }
 
 
@@ -12,6 +22,12 @@ color: #222222 !important;
 font-size: 0.5em 
 }
 
+
+.policy-title{
+  text-align: center;
+  color: #222222;
+  opacity: .9
+}
 
 .disc{
   margin-top: 2em
@@ -25,28 +41,29 @@ margin-bottom: 2em
 
 .disclamer-list{
   font-size: .8em;
-  font-weight: 550;
+  font-weight: 500;
   text-align: justify;
   padding:10px;
   background-color: aliceblue;
   color:#222222;
-  columns: 2;
-  opacity: 0.9
+  opacity: 0.9;
+  list-style: none;
 }
 
 
 .disclamer-list li{
-  margin-left:20px;
+margin-bottom: .6em !important;
+  width:97%;
+  margin:auto;
 }
 
 
-@media (max-height:800px){
-  .disclamer-list{
-    columns: 1;
-    padding:5px;
-  }
-  .disclamer-list li{
-    margin-bottom: 5px;;
-    margin-right:10px
-  }
+@media (max-width:800px){
+
+ul.policy-list{
+  columns: 1 !important;
+  background-color: aliceblue
+}
+
+
 }

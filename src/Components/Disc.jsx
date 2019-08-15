@@ -9,17 +9,37 @@ class Disc extends Component {
     return (
 
       <div className='disc' >
-        <h2 className='page-title'>Disclosure Policy</h2>
-        <p>The following disclosures are presented to you pursuant to the terms and conditions of our service agreement with GOOGLE, Inc. They are not required by any federal, state or local laws. They are provided to you as informational services only and may not be construed as legal advice. We are not the lender and do not have access to the full terms of your loan.</p>
-
-        <p>
-          The loans provided by our referral sources are term loans for 1 to 5 years. These types of loans are not a solution if you are facing long term debt and credit difficulties, and should not be used on a long-term basis. You should only borrow an amount that can be repaid within 1 to 5 years.</p>
 
 
 
 
+        <h2 className='page-title'>The Small Print</h2>
+
+        <p>At Supa Loans we like to be as transparent as we can , thats why we list our Terms and Conditions in black and white, so that you can be rest assured.</p>
 
 
+        <ul className='disclamer-list'>
+          <li>This website assists consumers in locating a lender. We are not a lender or broker of loans and we do not take loan applications. </li>
+          <li>          Instead, we take referral information and make referrals to lenders or networks of lenders. </li>
+          <li>          Personal Loan amounts vary from $1,000 to $5,000. </li>
+          <li>          Not all lenders can provide up to $5,000.00 and not all referrals are accepted. </li>
+          <li>          For those consumers who do not qualify for a Personal Loan, we will refer you to alternative sources. </li>
+          <li>          We do not make loans of any type or credit decisions. We are not offering or soliciting you to participate in a loan. </li>
+          <li>          This site will refer you to sources including lenders and networks of lenders. </li>
+          <li>          Providing your information on this Website does not guarantee that you will be approved for a loan of any type. </li>
+          <li>          We are not an agent, representative or broker of any lender and do not endorse or charge you for any loan or related product. </li>
+          <li>          Our sources tell us that cash transfer times may vary and may depend on your individual financial institution. </li>
+          <li>          In some circumstances faxing may be required. This service is not available in all states. </li>
+          <li>          Other than the referral, we have no involvement in your application and loan process. </li>
+          <li>          For details, questions or concerns regarding your application or loan, please contact your lender directly.</li>
+          <li>           Our referrals are seeking individuals who wish to have short term financing to solve immediate cash needs. </li>
+          <li>           Our referrals should not be considered or used as a long term solution. </li>
+          <li>           Lenders may or may not perform credit checks with the three credit reporting bureaus: Experian, Equifax, or Trans Union. </li>
+          <li>           Lenders may perform alternative credit checks or consumer reports through alternative providers. </li>
+          <li>           By submitting your request for a referral, you are authorizing our referral sources including lenders to independently verify the information you submitted and your credit worthiness. </li>
+          <li>           This service does not constitute an offer or solicitation for loan products which are prohibited by any state law. </li>
+          <li>           This service and offer are void where prohibited.</li>
+        </ul>
         <Accordion>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
@@ -72,33 +92,13 @@ class Disc extends Component {
           </Card>
 
         </Accordion>
-        <h2 className='page-title'>The Small Print</h2>
 
-        <p>At Supa Loans we like to be as transparent as we can , thats why we list our Terms and Conditions in black and white, so that you can be rest assured.</p>
+        <h3 className='policy-title'>Disclosure Policy</h3>
 
 
-        <ul className='disclamer-list'>
-          <li>This website assists consumers in locating a lender. We are not a lender or broker of loans and we do not take loan applications. </li>
-          <li>          Instead, we take referral information and make referrals to lenders or networks of lenders. </li>
-          <li>          Personal Loan amounts vary from $1,000 to $5,000. </li>
-          <li>          Not all lenders can provide up to $5,000.00 and not all referrals are accepted. </li>
-          <li>          For those consumers who do not qualify for a Personal Loan, we will refer you to alternative sources. </li>
-          <li>          We do not make loans of any type or credit decisions. We are not offering or soliciting you to participate in a loan. </li>
-          <li>          This site will refer you to sources including lenders and networks of lenders. </li>
-          <li>          Providing your information on this Website does not guarantee that you will be approved for a loan of any type. </li>
-          <li>          We are not an agent, representative or broker of any lender and do not endorse or charge you for any loan or related product. </li>
-          <li>          Our sources tell us that cash transfer times may vary and may depend on your individual financial institution. </li>
-          <li>          In some circumstances faxing may be required. This service is not available in all states. </li>
-          <li>          Other than the referral, we have no involvement in your application and loan process. </li>
-          <li>          For details, questions or concerns regarding your application or loan, please contact your lender directly.</li>
-          <li>           Our referrals are seeking individuals who wish to have short term financing to solve immediate cash needs. </li>
-          <li>           Our referrals should not be considered or used as a long term solution. </li>
-          <li>           Lenders may or may not perform credit checks with the three credit reporting bureaus: Experian, Equifax, or Trans Union. </li>
-          <li>           Lenders may perform alternative credit checks or consumer reports through alternative providers. </li>
-          <li>           By submitting your request for a referral, you are authorizing our referral sources including lenders to independently verify the information you submitted and your credit worthiness. </li>
-          <li>           This service does not constitute an offer or solicitation for loan products which are prohibited by any state law. </li>
-          <li>           This service and offer are void where prohibited.</li>
-        </ul>
+        <ul className='policy-list'><li>The following disclosures are presented to you pursuant to the terms and conditions of our service agreement with GOOGLE, Inc. </li><li> They are not required by any federal, state or local laws. </li><li> They are provided to you as informational services only and may not be construed as legal advice. </li><li> We are not the lender and do not have access to the full terms of your loan.</li><li> </li><li> The loans provided by our referral sources are term loans for 1 to 5 years. </li><li> These types of loans are not a solution if you are facing long term debt and credit difficulties, and should not be used on a long-term basis. </li><li> You should only borrow an amount that can be repaid within 1 to 5 years.</li></ul>
+
+
 
 
 
