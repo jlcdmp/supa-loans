@@ -33,3 +33,16 @@ font-size: 0.5em
 margin-top: 15px;
 
 }
+
+.disclamer-list{
+  font-size: .8em;
+  font-weight: 550;
+  text-align: justify;
+  padding:5px;
+  margin:auto;
+}
+
+
+.disclamer-list li{
+  margin:10px
+}

@@ -35,12 +35,12 @@ class What extends Component {
         <div className='reqs-use'>
 
           <div className='faq-container' id='reqs'>
-            <h4>What are some of the requirements?</h4>
+            <h4>To qualify for a personal loan you must be.</h4>
             <ol>
-              <li>You are at least 18 years older</li>
+              <li>At least 18 years older</li>
               <li>A U.S citizen</li>
               <li>Seeking at least $1,000</li>
-              <li>Regular income</li>
+              <li> Have a regular income source</li>
               <li>A direct deposit bank account</li>
             </ol>
           </div>

@@ -14,7 +14,7 @@ ol{
 color: #222222;
 font-weight: 550;
 font-size: 1.5em;
-text-align: center;
+text-align: center;;
 }
 
 
@@ -49,7 +49,7 @@ ol li{
 .faq-card{
   display:flex;
   flex-direction: row;
-  margin:5px;
+  margin:1px;
 }
 
 .faq-card p{
@@ -63,7 +63,7 @@ ol li{
 .faq-card img{
   width:3em;
   height:3em;
-  margin:5px;
+  margin:2px;
 }
 
 .reqs-use{
@@ -93,25 +93,29 @@ ol li{
 }
 
 #use h4{
-  font-size: 1.3em !important;
-  font-weight: 550
+  font-size: 1em !important;
+  font-weight: 650;
+  color: #222222;
+  opacity: 0.8
 }
 
 
 #reqs h4{
-  font-size: 1.3em !important;
-    font-weight: 550
+  font-size: 1em !important;
+  font-weight: 650;
+  color: #222222;
+  opacity: 0.8
 
 }
 
 .faq-card p{
   font-size: 1.1em;
-  font-weight: 500
+  font-weight: 550
 }
 
 .faq-card img{
-  width:2.3em;
-  height:2.3em;
+  width:2.5em;
+  height:2.5em;
 }
 
 
@@ -169,7 +173,7 @@ ol li{
 .what-container{
   padding:15px;
   margin-top: 2em !important;
-  margin-bottom: 1.5em !important;
+  margin-bottom: 1em !important;
   background-color: aliceblue;
   margin-left: -30px;
   margin-right: -30px

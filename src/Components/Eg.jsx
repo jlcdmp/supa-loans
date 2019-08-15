@@ -15,10 +15,8 @@ class Eg extends Component {
 
 
 
-        <h3 className='sub-title'>Representative Examples</h3>
-        <p className='example-sub'>Below is two representative examples
-        <br />
-          choose between $1,000 or $2,000. <br />For more information visit the FAQ section.</p>
+        <h3 className='page-title'>Representative Examples </h3>
+        <p className='example-sub'>Below are two representative examples to help you understand how APR Interest Rate and the other techincal aspects of a personal loan work<a href='faq'> Want to know more?</a></p>
 
         <Tabs defaultActiveKey='$1,000'>
           <Tab eventKey='$1,000' title='$1,000'>

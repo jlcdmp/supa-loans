@@ -9,7 +9,23 @@
   font-size: 1.5em;
   margin-bottom:10px !important;
   text-align: center;
-  font-weight: 550;
+  font-weight: 500;
+}
+
+
+
+.link-store{
+  text-align: center !important;
+
+}
+
+#terms-link{
+font-size: .9em !important;
+color: #222222;
+}
+
+#alink{
+  font-size: .9em !important;
 }
 
 @media (max-width:800px){
@@ -41,7 +57,8 @@ list-style: none !important;
  
 
 .who-container p{
-font-size: 1em !important
+font-size: 1.2em !important;
+
 }
 
 .who-container{

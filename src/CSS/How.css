@@ -13,11 +13,14 @@ margin: 5px
 
 
 .example-sub{
-  text-align: center;
+  width:96%;
+  text-align: justify;
   font-weight:500 !important;
   color: aliceblue;
-  font-size: 1em
-
+  font-size: 1em;
+  margin:Auto;
+  padding:5px;
+  margin-bottom:10px !important;
 }
 
 @media (max-width: 805px){
@@ -54,6 +57,14 @@ p.card-body-p{
   padding:0.3em;
   text-align: justify
 }
+
+
+
+
+
+
+
+
 nav.nav.nav-tabs{
   width:97% !important
 }
@@ -155,6 +166,7 @@ p.card-body-p{
 padding:5px;
 width:80%;
 margin: auto;
+border-bottom: aliceblue 1px solid
 
 }
 
@@ -162,8 +174,13 @@ margin: auto;
 .table{
 font-size: 0.7em;
 text-align: center;
+border:solid white 1px
 }
 
+
+table.table.table-borderless{
+margin-bottom: 10px !important
+}
 
 
 
@@ -172,7 +189,6 @@ text-align: center;
   color: #222222;
   width:50%;
   font-size: 1.3em;
-  border-bottom: grey 1px solid !important
 }
 
 .how-table td{
@@ -180,8 +196,6 @@ text-align: center;
   color: #222222;
   font-size: 1.3em;
   font-weight: 600;
-  border-bottom: grey 1px solid !important
-
 }
 
 
@@ -194,17 +208,19 @@ text-align: center;
   font-size: 1.3em;
   color: #222222;
   font-weight: 600 !important;
-  margin: 5px;
+  margin: 0px;
   text-align: center;
   background-color: aliceblue;
-  border: solid 0.5px #222222
+  opacity: 0.9;
+  padding:10px
 }
 
 .explain-container h5{
-  font-size: 1.4em !important;
+  font-size: 1.2em !important;
   color: #222222 !important;
-  font-weight: 700 !important;
+  font-weight: 650 !important;
   margin:0 !important;
+  opacity: 0.8
 }
 
 
