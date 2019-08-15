@@ -8,8 +8,8 @@ class Who extends Component {
       <div className='who'>
         <h2 className='page-title'>Who We Are</h2>
         <div className='who-container'>
-          <p>When applying for a loan online you want to rest assured that you are using a reputibal company.</p>
-          <p>It's important to us that you feel comfertable, and uderstand who we are and our process.</p>
+          <p>When applying for a loan online you want to be rest assured that you are using a reputibal company.</p>
+          <p>It's important to us that you feel comfortable, and uderstand who we are and our process.</p>
           <p>That's why at Supa Loanz we like to keep things simple, so here is a little bit more about us to help put your mind at ease.</p>
           <div className='link-store'>
             <span id='terms-link'>Find more about our T&C's</span>
@@ -21,7 +21,7 @@ class Who extends Component {
           <div className='promise'>
             <img src={require('../images/lock1.png')} />
             <ul>
-              <li>All of the data you provide is encrypted on secured.</li>
+              <li>All of the data you provide is encrypted and secured.</li>
               <li>We fully comply with data protection laws. </li>
               <li>We are always clear and transparent with regards to how your data will be processed.</li>
             </ul>
