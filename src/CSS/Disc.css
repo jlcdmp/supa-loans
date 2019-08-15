@@ -26,13 +26,14 @@ font-size: 0.5em
 
 
 .disc{
-  margin-top: 5em
+  margin-top: 2em
 }
 
 .disc .accordion{
 margin-top: 15px;
-
+margin-bottom: 2em
 }
+
 
 .disclamer-list{
   font-size: .8em;

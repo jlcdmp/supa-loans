@@ -74,7 +74,7 @@ class Disc extends Component {
         </Accordion>
         <h2 className='page-title'>The Small Print</h2>
 
-        <p>At Supa Loans we like to be as trasnpaperent as we can , thats why we list our Terms and Conditions in black and white, so that you can be rest assured.</p>
+        <p>At Supa Loans we like to be as transparent as we can , thats why we list our Terms and Conditions in black and white, so that you can be rest assured.</p>
 
 
         <ul className='disclamer-list'>
